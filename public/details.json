@@ -1,0 +1,291 @@
+[
+    {
+      "location": "Cox's Bazar",
+      "hotels": [
+        {
+            "id": 1,
+          "image": "link_to_image_1",
+          "name": "Ocean View Resort",
+          "details": "A beachfront resort with stunning views of the Bay of Bengal. Modern amenities and comfortable accommodations make it an ideal stay.",
+          "rating": 4.5,
+          "cost_per_night": 120,
+          "bed": "King Size"
+        },
+        {
+            "id": 2,
+          "image": "link_to_image_2",
+          "name": "Sunset Paradise Hotel",
+          "details": "Located near Inani Beach, offering a tranquil environment with easy access to local attractions. Contemporary design and excellent services.",
+          "rating": 4.2,
+          "cost_per_night": 90,
+          "bed": "Queen Size"
+        },
+        {
+            "id": 3,
+          "image": "link_to_image_3",
+          "name": "Coral Retreat Inn",
+          "details": "Nestled amidst lush greenery, this boutique hotel provides a serene escape. Well-appointed rooms and personalized service.",
+          "rating": 4.8,
+          "cost_per_night": 150,
+          "bed": "Twin Beds"
+        }
+      ]
+    },
+    {
+      "location": "Sajek",
+      "hotels": [
+        {
+            "id": 4,
+          "image": "link_to_image_4",
+          "name": "Cloud Nine Resort",
+          "details": "Perched on the hills of Sajek Valley, offering breathtaking views. Cozy cottages, warm hospitality, and a peaceful ambiance.",
+          "rating": 4.6,
+          "cost_per_night": 110,
+          "bed": "King Size"
+        },
+        {
+            "id": 5,
+          "image": "link_to_image_5",
+          "name": "Misty Haven Cottage",
+          "details": "Surrounded by mist-covered landscapes, this cottage provides a homely atmosphere. Ideal for nature lovers and tranquility seekers.",
+          "rating": 4.3,
+          "cost_per_night": 80,
+          "bed": "Queen Size"
+        },
+        {
+            "id": 6,
+          "image": "link_to_image_6",
+          "name": "Valley Retreat Hotel",
+          "details": "Located near the tribal villages, offering cultural experiences. Comfortable rooms, local cuisine, and friendly staff.",
+          "rating": 4.5,
+          "cost_per_night": 95,
+          "bed": "Twin Beds"
+        }
+      ]
+    },
+    {
+        "location": "Rangamati",
+        "hotels": [
+          {
+            "id": 7,
+            "image": "rangamati_hotel_1.jpg",
+            "name": "Lakeview Retreat",
+            "details": "Nestled by the serene Kaptai Lake, this hotel offers a peaceful retreat with comfortable rooms and lake-view balconies.",
+            "rating": 4.5,
+            "money": 130,
+            "bed": "King Size"
+          },
+          {
+            "id": 8,
+            "image": "rangamati_hotel_2.jpg",
+            "name": "Hillside Haven Resort",
+            "details": "Perched on the hills, this resort provides breathtaking views of the surrounding landscape. Modern amenities and tranquility.",
+            "rating": 4.3,
+            "money": 100,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 9,
+            "image": "rangamati_hotel_3.jpg",
+            "name": "Waterfront Inn",
+            "details": "Situated along the waterfront, this inn offers a unique experience. Cozy rooms and a peaceful ambiance by the water.",
+            "rating": 4.8,
+            "money": 150,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Jaflong",
+        "hotels": [
+          {
+            "id": 10,
+            "image": "jaflong_hotel_1.jpg",
+            "name": "Scenic Valley Resort",
+            "details": "Surrounded by tea gardens and hills, this resort provides a picturesque escape. Comfortable rooms and proximity to Jaflong's attractions.",
+            "rating": 4.6,
+            "money": 120,
+            "bed": "King Size"
+          },
+          {
+            "id": 11,
+            "image": "jaflong_hotel_2.jpg",
+            "name": "Riverfront Lodge",
+            "details": "Located by the Dawki River, this lodge offers serene river views. Cozy accommodations and a tranquil environment.",
+            "rating": 4.2,
+            "money": 80,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 12,
+            "image": "jaflong_hotel_3.jpg",
+            "name": "Misty Meadows Hotel",
+            "details": "Set amidst mist-covered landscapes, this hotel provides a serene atmosphere. Modern amenities and close to nature.",
+            "rating": 4.5,
+            "money": 110,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Saint Martin",
+        "hotels": [
+          {
+            "id": 13,
+            "image": "saint_martin_hotel_1.jpg",
+            "name": "Island Paradise Resort",
+            "details": "A beachfront resort on Saint Martin's Island, offering stunning views of the Bay of Bengal. Luxurious accommodations and top-notch amenities.",
+            "rating": 4.7,
+            "money": 180,
+            "bed": "King Size"
+          },
+          {
+            "id":14,
+            "image": "saint_martin_hotel_2.jpg",
+            "name": "Seashell Retreat",
+            "details": "Situated near the pristine beaches, this retreat provides a tranquil escape with modern comforts and personalized service.",
+            "rating": 4.5,
+            "money": 150,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 15,
+            "image": "saint_martin_hotel_3.jpg",
+            "name": "Coral Cove Inn",
+            "details": "Nestled amidst coral reefs, this inn offers a unique island experience. Cozy rooms and a relaxed ambiance by the sea.",
+            "rating": 4.8,
+            "money": 200,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Sundarbans",
+        "hotels": [
+          {
+            "id": 16,
+            "image": "sundarbans_hotel_1.jpg",
+            "name": "Mangrove Haven Lodge",
+            "details": "Immerse yourself in the beauty of the Sundarbans with this lodge. Comfortable accommodations and guided tours of the mangrove forest.",
+            "rating": 4.6,
+            "money": 130,
+            "bed": "King Size"
+          },
+          {
+            "id": 17,
+            "image": "sundarbans_hotel_2.jpg",
+            "name": "Tiger Trails Resort",
+            "details": "Located near prime tiger habitats, this resort offers a unique wildlife experience. Cozy rooms and guided safaris.",
+            "rating": 4.4,
+            "money": 110,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 18,
+            "image": "sundarbans_hotel_3.jpg",
+            "name": "River Safari Camp",
+            "details": "Experience the Sundarbans through river safaris. This camp offers comfortable tents and an immersive natural setting.",
+            "rating": 4.5,
+            "money": 120,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Himsori",
+        "hotels": [
+          {
+            "id": 19,
+            "image": "himsori_hotel_1.jpg",
+            "name": "Mountain Vista Resort",
+            "details": "Perched on the hills of Himsori, this resort offers panoramic mountain views. Modern amenities and a tranquil atmosphere.",
+            "rating": 4.6,
+            "money": 120,
+            "bed": "King Size"
+          },
+          {
+            "id": 20,
+            "image": "himsori_hotel_2.jpg",
+            "name": "Pine Grove Lodge",
+            "details": "Surrounded by pine forests, this lodge provides a peaceful escape. Cozy accommodations and a connection with nature.",
+            "rating": 4.4,
+            "money": 90,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 21,
+            "image": "himsori_hotel_3.jpg",
+            "name": "Sunset Retreat Hotel",
+            "details": "Experience stunning sunsets at this hotel. Comfortable rooms and a serene ambiance for a perfect getaway.",
+            "rating": 4.7,
+            "money": 130,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Sri Mongol",
+        "hotels": [
+          {
+            "id": 22,
+            "image": "sri_mongol_hotel_1.jpg",
+            "name": "Tea Garden Retreat",
+            "details": "Located in the heart of Sri Mongol's tea gardens, this retreat offers a unique tea plantation experience. Cozy accommodations and scenic beauty.",
+            "rating": 4.5,
+            "money": 110,
+            "bed": "King Size"
+          },
+          {
+            "id": 23,
+            "image": "sri_mongol_hotel_2.jpg",
+            "name": "Bungalow Serenity",
+            "details": "Stay in colonial-style bungalows surrounded by greenery. A blend of history and comfort in Sri Mongol.",
+            "rating": 4.3,
+            "money": 80,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 24,
+            "image": "sri_mongol_hotel_3.jpg",
+            "name": "Misty Hills Resort",
+            "details": "Escape to the misty hills of Sri Mongol. Modern amenities and a tranquil environment for a relaxing stay.",
+            "rating": 4.8,
+            "money": 150,
+            "bed": "Twin Beds"
+          }
+        ]
+      },
+      {
+        "location": "Sada Pathor",
+        "hotels": [
+          {
+            "id": 25,
+            "image": "sada_pathor_hotel_1.jpg",
+            "name": "Stone Haven Lodge",
+            "details": "Experience tranquility at Stone Haven Lodge, situated amidst the unique landscapes of Sada Pathor. Cozy rooms and a connection with nature.",
+            "rating": 4.6,
+            "money": 120,
+            "bed": "King Size"
+          },
+          {
+            "id": 26,
+            "image": "sada_pathor_hotel_2.jpg",
+            "name": "Meadow Retreat Hotel",
+            "details": "Surrounded by meadows and open spaces, this hotel offers a peaceful retreat. Comfortable accommodations and a serene atmosphere.",
+            "rating": 4.4,
+            "money": 90,
+            "bed": "Queen Size"
+          },
+          {
+            "id": 27,
+            "image": "sada_pathor_hotel_3.jpg",
+            "name": "Pathor View Resort",
+            "details": "Enjoy panoramic views of the unique stone formations at Pathor View Resort. Modern amenities and a tranquil environment.",
+            "rating": 4.7,
+            "money": 130,
+            "bed": "Twin Beds"
+          }
+        ]
+      }
+  ]
+  

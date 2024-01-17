@@ -1,0 +1,19 @@
+.title{
+flex-shrink: 0;
+color: #FFF;
+font-family: Bebas Neue;
+font-size: 97.684px;
+font-style: normal;
+font-weight: 900;
+line-height: 80%;
+}
+.sub-title{
+    width: 455px;
+flex-shrink: 0;
+color: #FFF;
+margin: 20px 0;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
