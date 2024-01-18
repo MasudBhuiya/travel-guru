@@ -10,6 +10,7 @@ import Details from './components/Details/Details';
 import AuthProvider from './components/Provider/AuthProvider';
 import Login from './components/Login/Login';
 import Register from './components/Login/Register';
+// import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {

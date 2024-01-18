@@ -57,18 +57,17 @@ const Main = () => {
               modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide onClick={() => handleDetails(1)}><Link to="/details/1"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Cox`s Bazar</h4></Link></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(1)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Cox`s Bazar</h4></Link></SwiperSlide>
 
-              <SwiperSlide onClick={() => handleDetails(2)}><Link to="/details/2"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sajek</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(2)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sajek</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(3)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Rangamati</h4></SwiperSlide>
 
-              <SwiperSlide onClick={() => handleDetails(3)}><Link to="/details/3"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" />*</Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Rangamati</h4></SwiperSlide>
-
-              <SwiperSlide onClick={() => handleDetails(4)}><Link to="/details/4"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Jaflong</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(5)}><Link to="/details/5"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Saint Martin</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(6)}><Link to="/details/6"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" />*</Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sundarban</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(7)}><Link to="/details/7"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Himsori</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(8)}><Link to="/details/8"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sri Mongol</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(9)}><Link to="/details/9"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" />*</Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sada Pathor</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(4)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Jaflong</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(5)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Saint Martin</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(6)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sundarban</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(7)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Himsori</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(8)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sri Mongol</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(9)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sada Pathor</h4></SwiperSlide>
             </Swiper>
           </>
         </div>
