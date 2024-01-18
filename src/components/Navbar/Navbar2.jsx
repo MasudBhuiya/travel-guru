@@ -1,9 +1,8 @@
 // import React from 'react';
-import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png"
-const Navbar = () => {
+const Navbar2 = () => {
     return (
-        <div className="navbar max-w-[1400px] pt-8 mx-auto">
+        <div className="navbar max-w-[1400px] pt-3 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,30 +10,25 @@ const Navbar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>News</a></li>
+                        <li><a>Destination</a></li>
                         <li><a>Blog</a></li>
                         <li><a>Contact</a></li>
-                        <li><a>Destination</a></li>
                     </ul>
                 </div>
-                <img className="w-[120px] h-[56px] text-white" src={logo} alt="" />
-                <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto lg:w-[500px]" />
-                </div>
+                <img className="w-[120px] h-[56px] " src={logo} alt="" />
+               
             </div>
             <div className="navbar-end hidden lg:flex">
 
-                <ul className="menu menu-horizontal text-white px-1 gap-4 lg:-me-72">
+                <ul className="menu menu-horizontal font-bold px-1 gap-4 ">
                     <li><a>News</a></li>
+                    <li><a>Destination</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
-                    <li><a>Destination</a></li>
                 </ul>
-            </div>
-            <div className="navbar-end">
-                <Link to="/login" className="btn bg-[#F9A51A] hover:bg-[#ebbb70] border-none text-white font-bold md:px-7">Login</Link>
             </div>
         </div>
     );
 };
 
-export default Navbar;
+export default Navbar2;

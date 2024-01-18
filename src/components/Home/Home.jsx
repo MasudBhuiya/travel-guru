@@ -11,7 +11,7 @@ const Home = ({data}) => {
                 <p className='sub-title'>{data[0]?.details}</p>
                 <button className="btn bg-[#F9A51A] hover:bg-[#ebbb70] border-none text-white font-bold px-10">Booking</button></>
                 : 
-                <><h1 className='title'>Coxs bazar</h1>
+                <><h1 className='title'>Cox`s bazar</h1>
                 <p className='sub-title'>Coxs Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                 <button className="btn bg-[#F9A51A] hover:bg-[#ebbb70] border-none text-white font-bold px-10">Booking</button></>
             }

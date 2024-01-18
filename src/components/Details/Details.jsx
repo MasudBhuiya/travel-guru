@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DetailsCard from "./DetailsCard";
+import Navbar2 from "../Navbar/Navbar2";
 
 const Details = () => {
     const {id} = useParams();
@@ -10,9 +11,9 @@ const Details = () => {
     const [hotelData, setHotelData] = useState(null);
     const [details, setDetails] = useState([]);
     const [hotels, setHotels] = useState([]);
-    // const [singleHotel, setSingleHotel] = useState({});
+    const [singleHotel, setSingleHotel] = useState({});
     // console.log(hotels);
-    // console.log(hotelData);
+    // console.log(singleHotel);
   
     useEffect(() => {
       fetch('../../public/data.json')
@@ -41,15 +42,30 @@ const Details = () => {
     }, [hotels, datas?.name])
 
      
-
+    useEffect(() => {
+      {
+              hotelData?.map(hotel => setSingleHotel(hotel));
+              
+            }
+  }, [hotelData])
 
 
     return (
-        <div>
-            <h1>This is Details</h1>
-            {
-                hotelData[0]?.hotels.map(hotl => <DetailsCard key={hotl.id} data={hotl}></DetailsCard>)
+        <div className="max-w-[1400px] mx-auto">
+            <Navbar2></Navbar2>
+            <hr className="my-4 border" />
+            <p>252 stays Apr 13-17 3 guests</p>
+            <h2 className="font-bold text-3xl mt-1">Stay in {datas?.name}</h2>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div>
+              {
+                singleHotel?.hotels?.map(hotl => <DetailsCard key={hotl.id} data={hotl}></DetailsCard>)
             }
+              </div>
+              <div>
+            <p>map</p>
+              </div>
+            </div>
         </div>
     );
 };

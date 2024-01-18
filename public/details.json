@@ -4,7 +4,7 @@
       "hotels": [
         {
             "id": 1,
-          "image": "link_to_image_1",
+          "image": "https://img.freepik.com/free-photo/beautiful-girl-standing-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand_335224-1094.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Ocean View Resort",
           "details": "A beachfront resort with stunning views of the Bay of Bengal. Modern amenities and comfortable accommodations make it an ideal stay.",
           "rating": 4.5,
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-          "image": "link_to_image_2",
+          "image": "https://img.freepik.com/free-photo/house-landscape-pool-relaxation-garden_1203-4900.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Sunset Paradise Hotel",
           "details": "Located near Inani Beach, offering a tranquil environment with easy access to local attractions. Contemporary design and excellent services.",
           "rating": 4.2,
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-          "image": "link_to_image_3",
+          "image": "https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Coral Retreat Inn",
           "details": "Nestled amidst lush greenery, this boutique hotel provides a serene escape. Well-appointed rooms and personalized service.",
           "rating": 4.8,
@@ -36,7 +36,7 @@
       "hotels": [
         {
             "id": 4,
-          "image": "link_to_image_4",
+          "image": "https://img.freepik.com/free-photo/long-boat-blue-water-maya-bay-phi-phi-island-krabi-thailand_335224-895.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Cloud Nine Resort",
           "details": "Perched on the hills of Sajek Valley, offering breathtaking views. Cozy cottages, warm hospitality, and a peaceful ambiance.",
           "rating": 4.6,
@@ -45,7 +45,7 @@
         },
         {
             "id": 5,
-          "image": "link_to_image_5",
+          "image": "https://img.freepik.com/free-photo/umbrella-chair-around-swimming-pool_1203-2409.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Misty Haven Cottage",
           "details": "Surrounded by mist-covered landscapes, this cottage provides a homely atmosphere. Ideal for nature lovers and tranquility seekers.",
           "rating": 4.3,
@@ -54,7 +54,7 @@
         },
         {
             "id": 6,
-          "image": "link_to_image_6",
+          "image": "https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
           "name": "Valley Retreat Hotel",
           "details": "Located near the tribal villages, offering cultural experiences. Comfortable rooms, local cuisine, and friendly staff.",
           "rating": 4.5,
@@ -68,7 +68,7 @@
         "hotels": [
           {
             "id": 7,
-            "image": "rangamati_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/rest-sunshine-atoll-bungalow-holiday_1232-3876.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Lakeview Retreat",
             "details": "Nestled by the serene Kaptai Lake, this hotel offers a peaceful retreat with comfortable rooms and lake-view balconies.",
             "rating": 4.5,
@@ -77,7 +77,7 @@
           },
           {
             "id": 8,
-            "image": "rangamati_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-851.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Hillside Haven Resort",
             "details": "Perched on the hills, this resort provides breathtaking views of the surrounding landscape. Modern amenities and tranquility.",
             "rating": 4.3,
@@ -86,7 +86,7 @@
           },
           {
             "id": 9,
-            "image": "rangamati_hotel_3.jpg",
+            "image": "https://img.freepik.com/free-photo/vacation-luxury-travel-sand-sky_1203-5366.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Waterfront Inn",
             "details": "Situated along the waterfront, this inn offers a unique experience. Cozy rooms and a peaceful ambiance by the water.",
             "rating": 4.8,
@@ -100,7 +100,7 @@
         "hotels": [
           {
             "id": 10,
-            "image": "jaflong_hotel_1.jpg",
+            "image": "https://img.freepik.com/premium-photo/luxury-beach-resort-infiniy-swimming-pool-beach-chairs-beds-loungers-umbrellas-palm-trees_663265-1535.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Scenic Valley Resort",
             "details": "Surrounded by tea gardens and hills, this resort provides a picturesque escape. Comfortable rooms and proximity to Jaflong's attractions.",
             "rating": 4.6,
@@ -109,7 +109,7 @@
           },
           {
             "id": 11,
-            "image": "jaflong_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand_335224-1390.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Riverfront Lodge",
             "details": "Located by the Dawki River, this lodge offers serene river views. Cozy accommodations and a tranquil environment.",
             "rating": 4.2,
@@ -118,7 +118,7 @@
           },
           {
             "id": 12,
-            "image": "jaflong_hotel_3.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-846.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Misty Meadows Hotel",
             "details": "Set amidst mist-covered landscapes, this hotel provides a serene atmosphere. Modern amenities and close to nature.",
             "rating": 4.5,
@@ -132,7 +132,7 @@
         "hotels": [
           {
             "id": 13,
-            "image": "saint_martin_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/pileh-blue-lagoon-phi-phi-island-thailand_231208-1487.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Island Paradise Resort",
             "details": "A beachfront resort on Saint Martin's Island, offering stunning views of the Bay of Bengal. Luxurious accommodations and top-notch amenities.",
             "rating": 4.7,
@@ -141,7 +141,7 @@
           },
           {
             "id":14,
-            "image": "saint_martin_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Seashell Retreat",
             "details": "Situated near the pristine beaches, this retreat provides a tranquil escape with modern comforts and personalized service.",
             "rating": 4.5,
@@ -150,7 +150,7 @@
           },
           {
             "id": 15,
-            "image": "saint_martin_hotel_3.jpg",
+            "image": "https://img.freepik.com/free-photo/young-girl-steps-house-tree-sunrise-nusa-penida-island-bali-indonesia_335224-350.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Coral Cove Inn",
             "details": "Nestled amidst coral reefs, this inn offers a unique island experience. Cozy rooms and a relaxed ambiance by the sea.",
             "rating": 4.8,
@@ -164,7 +164,7 @@
         "hotels": [
           {
             "id": 16,
-            "image": "sundarbans_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6772.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Mangrove Haven Lodge",
             "details": "Immerse yourself in the beauty of the Sundarbans with this lodge. Comfortable accommodations and guided tours of the mangrove forest.",
             "rating": 4.6,
@@ -173,7 +173,7 @@
           },
           {
             "id": 17,
-            "image": "sundarbans_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/sea-house-resort-exotic-sky_1203-5302.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Tiger Trails Resort",
             "details": "Located near prime tiger habitats, this resort offers a unique wildlife experience. Cozy rooms and guided safaris.",
             "rating": 4.4,
@@ -182,7 +182,7 @@
           },
           {
             "id": 18,
-            "image": "sundarbans_hotel_3.jpg",
+            "image": "https://img.freepik.com/free-photo/vacations-green-sun-resort-journey_1203-5275.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "River Safari Camp",
             "details": "Experience the Sundarbans through river safaris. This camp offers comfortable tents and an immersive natural setting.",
             "rating": 4.5,
@@ -196,7 +196,7 @@
         "hotels": [
           {
             "id": 19,
-            "image": "himsori_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-landscape-beach-sea-ocean-with-empty-chair-deck-umbrella-nearly-coconut-palm-tree-with-white-cloud-blue-sky_74190-9981.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Mountain Vista Resort",
             "details": "Perched on the hills of Himsori, this resort offers panoramic mountain views. Modern amenities and a tranquil atmosphere.",
             "rating": 4.6,
@@ -205,7 +205,7 @@
           },
           {
             "id": 20,
-            "image": "himsori_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-viewpoint-koh-nangyuan-island-surat-thani-thailand_335224-1097.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Pine Grove Lodge",
             "details": "Surrounded by pine forests, this lodge provides a peaceful escape. Cozy accommodations and a connection with nature.",
             "rating": 4.4,
@@ -214,7 +214,7 @@
           },
           {
             "id": 21,
-            "image": "himsori_hotel_3.jpg",
+            "image": "https://img.freepik.com/premium-photo/beautiful-outdoor-swimming-pool-with-coconut-palm-tree_1203-12399.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Sunset Retreat Hotel",
             "details": "Experience stunning sunsets at this hotel. Comfortable rooms and a serene ambiance for a perfect getaway.",
             "rating": 4.7,
@@ -228,7 +228,7 @@
         "hotels": [
           {
             "id": 22,
-            "image": "sri_mongol_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-girl-running-wooden-path-koh-nang-yuan-island-near-koh-tao-island-surat-thani-thailand_335224-1089.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Tea Garden Retreat",
             "details": "Located in the heart of Sri Mongol's tea gardens, this retreat offers a unique tea plantation experience. Cozy accommodations and scenic beauty.",
             "rating": 4.5,
@@ -237,7 +237,7 @@
           },
           {
             "id": 23,
-            "image": "sri_mongol_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/maldives-house-exotic-travel-sea_1203-5358.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Bungalow Serenity",
             "details": "Stay in colonial-style bungalows surrounded by greenery. A blend of history and comfort in Sri Mongol.",
             "rating": 4.3,
@@ -246,7 +246,7 @@
           },
           {
             "id": 24,
-            "image": "sri_mongol_hotel_3.jpg",
+            "image": "https://img.freepik.com/premium-photo/atoll-with-islands-maldives-tropical-island-clear-water_124507-34268.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Misty Hills Resort",
             "details": "Escape to the misty hills of Sri Mongol. Modern amenities and a tranquil environment for a relaxing stay.",
             "rating": 4.8,
@@ -260,7 +260,7 @@
         "hotels": [
           {
             "id": 25,
-            "image": "sada_pathor_hotel_1.jpg",
+            "image": "https://img.freepik.com/free-photo/tree-maldives-coastline-sea-sky_1203-5279.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Stone Haven Lodge",
             "details": "Experience tranquility at Stone Haven Lodge, situated amidst the unique landscapes of Sada Pathor. Cozy rooms and a connection with nature.",
             "rating": 4.6,
@@ -269,7 +269,7 @@
           },
           {
             "id": 26,
-            "image": "sada_pathor_hotel_2.jpg",
+            "image": "https://img.freepik.com/free-photo/beautiful-water-villas-tropical-maldives-island-sunrise-time_1232-4482.jpg?size=626&ext=jpg&ga=GA1.1.110381157.1659454590&semt=ais",
             "name": "Meadow Retreat Hotel",
             "details": "Surrounded by meadows and open spaces, this hotel offers a peaceful retreat. Comfortable accommodations and a serene atmosphere.",
             "rating": 4.4,
@@ -278,7 +278,7 @@
           },
           {
             "id": 27,
-            "image": "sada_pathor_hotel_3.jpg",
+            "image": "https://image.shutterstock.com/image-photo/beautiful-nature-scenic-landscape-famous-260nw-2265165939.jpg",
             "name": "Pathor View Resort",
             "details": "Enjoy panoramic views of the unique stone formations at Pathor View Resort. Modern amenities and a tranquil environment.",
             "rating": 4.7,

@@ -38,7 +38,8 @@ const Main = () => {
 
   }
   return (
-    <div className="main opacity-80 ">
+    <div className="main">
+      <div className='background'>
       <Navbar></Navbar>
       <div className='grid md:ms-[170px] items-center lg:grid-cols-2 justify-evenly pt-[150px]'>
         <div>
@@ -56,7 +57,7 @@ const Main = () => {
               modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide onClick={() => handleDetails(1)}><Link to="/details/1"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Cox's Bazar</h4></Link></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(1)}><Link to="/details/1"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Cox`s Bazar</h4></Link></SwiperSlide>
 
               <SwiperSlide onClick={() => handleDetails(2)}><Link to="/details/2"><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sajek</h4></SwiperSlide>
 
@@ -73,6 +74,7 @@ const Main = () => {
         </div>
       </div>
       
+      </div>
     </div>
   );
 };
