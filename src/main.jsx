@@ -10,7 +10,7 @@ import Details from './components/Details/Details';
 import AuthProvider from './components/Provider/AuthProvider';
 import Login from './components/Login/Login';
 import Register from './components/Login/Register';
-// import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'details/:id',
-    element: <Details></Details>
+    element: <PrivateRoute><Details></Details></PrivateRoute>,
   },
   {
     path: 'login',

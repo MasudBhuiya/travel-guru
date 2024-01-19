@@ -1,7 +1,7 @@
 // import React from 'react';
 
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import DetailsCard from "./DetailsCard";
 import Navbar2 from "../Navbar/Navbar2";
 
@@ -16,27 +16,27 @@ const Details = () => {
     // console.log(singleHotel);
   
     useEffect(() => {
-      fetch('../../public/data.json')
+      fetch('https://travel-guru-server-i6atl07yv-masudbhuiya.vercel.app/data')
         .then(res => res.json())
         .then(data => setDetails(data))
     }, [])
     useEffect(() => {
         {
-                const data = details.find(detail => detail.id == id);
+                const data = details?.find(detail => detail?.id == id);
                 setData(data);
               }
     }, [details, id])
     
   
     useEffect(() => {
-        fetch('../../../public/details.json')
+        fetch('https://travel-guru-server-i6atl07yv-masudbhuiya.vercel.app/details')
           .then(res => res.json())
           .then(data => setHotels(data))
       }, [])
 
       useEffect(() => {
         {
-                const data = hotels.filter(hotel => hotel.location == datas?.name);
+                const data = hotels?.filter(hotel => hotel?.location == datas?.name);
                 setHotelData(data);
               }
     }, [hotels, datas?.name])
@@ -54,6 +54,7 @@ const Details = () => {
         <div className="max-w-[1400px] mx-auto">
             <Navbar2></Navbar2>
             <hr className="my-4 border" />
+            <p>length: {details.length}</p>
             <p>252 stays Apr 13-17 3 guests</p>
             <h2 className="font-bold text-3xl mt-1">Stay in {datas?.name}</h2>
             <div className="grid lg:grid-cols-2 gap-12">

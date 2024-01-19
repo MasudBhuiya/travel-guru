@@ -32,14 +32,14 @@ const Home = ({data}) => {
                  <div className='grid md:grid-cols-2 gap-5 w-fit'>
                  <div className='flex flex-col mb-[10px]'>
                  <label className='mb-1 text-gray-400' htmlFor="">From</label>
-                 <input type="date" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
+                 <input type="date" name="from" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
                  </div>
                  <div className='flex flex-col mb-[10px]'>
                  <label className='mb-1 text-gray-400' htmlFor="">To</label>
-                 <input type="date" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
+                 <input type="date" name="to" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
                  </div>
                  </div>
-                 <Link to={`/details/${data[0]?.id}`}><input className='btn btn-block bg-orange-400 mt-6 rounded-none hover:bg-orange-600 text-lg' type="submit" value="Login" name=""  /></Link>
+                 <Link to={`/details/${data[0]?.id}`}><input className='btn btn-block bg-orange-400 mt-6 rounded-md hover:bg-orange-600 text-lg' type="submit" value="Start Booking" name=""  /></Link>
              </form>
    </div>
   </div>
@@ -48,54 +48,10 @@ const Home = ({data}) => {
                 : 
                 <><h1 className='title'>Discover the<br /> World  with<br /> Travel Guru</h1>
                 <p className='sub-title'>Coxs Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
-                <button className="btn bg-[#F9A51A] hover:bg-[#ebbb70] border-none text-white font-bold px-10">Booking</button></>
+                <button  className="btn bg-[#f3c170] hover:bg-[#ebbb70] border-none  font-bold px-10">Select First</button></>
             }
         </div>
     );
 };
 
 export default Home;
-
-
-
-
-// {/* <div>
-//             {/* The button to open modal */}
-
-// {/* Put this part before </body> tag */}
-// <input type="checkbox" id="my_modal_6" className="modal-toggle" />
-// <div className="modal" role="dialog">
-//   <div className="modal-box">
-//   <div className='lg:px-10 py-6'>
-//   <form className='' action="">
-//                 <div className='flex flex-col mb-[10px]'>
-//                     <label className='mb-1 text-gray-400' htmlFor="">Origin</label>
-//                 <input type="text" name="text" className=' bg-zinc-100 rounded-md p-3 font-bold text-center ' readOnly placeholder='Dhaka' required  />
-//                 </div>
-//                 <div className='flex flex-col mb-[10px]'>
-//                 <label className='mb-1 text-gray-400' htmlFor="">Destination</label>
-//                 <input type="text" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold ' readOnly placeholder={data[0]?.name} required  />
-//                 </div>
-//                 <div className='grid md:grid-cols-2 gap-5 w-fit'>
-//                 <div className='flex flex-col mb-[10px]'>
-//                 <label className='mb-1 text-gray-400' htmlFor="">From</label>
-//                 <input type="date" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
-//                 </div>
-//                 <div className='flex flex-col mb-[10px]'>
-//                 <label className='mb-1 text-gray-400' htmlFor="">To</label>
-//                 <input type="date" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
-//                 </div>
-//                 </div>
-//                 <input className='btn btn-block bg-orange-400 mt-6 rounded-none hover:bg-orange-600 text-lg' type="submit" value="Login" name=""  />
-//             </form>
-//   </div>
-//     <div className="modal-action">
-//     <form method="dialog">
-//         {/* if there is a button, it will close the modal */}
-//         <button className="btn">Close</button>
-//       </form>
-
-//     </div>
-//   </div>
-// </div>
-//         </div> */}

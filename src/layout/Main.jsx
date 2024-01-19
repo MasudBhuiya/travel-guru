@@ -26,9 +26,13 @@ const Main = () => {
   // console.log(data);
 
   useEffect(() => {
-    fetch('../../public/data.json')
+    fetch('https://travel-guru-server-i6atl07yv-masudbhuiya.vercel.app/data')
       .then(res => res.json())
-      .then(data => setDetails(data))
+      .then(data => {
+        setDetails(data)
+        console.log('33',data);
+      })
+      .catch(error=>console.log(error))
   }, [])
   const handleDetails = (num) => {
     {
