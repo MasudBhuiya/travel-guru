@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <img className="w-[120px] me-6 h-[56px]  text-white" src=
+                <img className="md:w-[120px] w-[80px] me-6 md:h-[56px]  text-white" src=
                 'https://i.ibb.co/TcRjTVN/Frame.png' alt="" />
                 <div className="form-control">
                     <input style={{border: '1px solid white'}} type="text" placeholder="Search" className="input bg-transparent  text-white border-gray-300 input-bordered w-24 md:w-auto lg:w-[500px]" />

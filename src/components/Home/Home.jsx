@@ -8,8 +8,8 @@ const Home = ({data}) => {
         <div>
             {
                 data  ?
-                 <><h1 className='title'>{data[0]?.name}</h1>
-                <p className='sub-title'>{data[0]?.details}</p>
+                 <><h1 className='title text-5xl md:text-7xl'>{data[0]?.name}</h1>
+                <p className='sub-title max-w-[450px]'>{data[0]?.details}</p>
 <label onClick={()=>document.getElementById('my_modal_3').showModal()} className="btn bg-[#F9A51A] hover:bg-[#ebbb70] border-none text-white font-bold px-10">Booking</label>
                 
 {/* You can open the modal using document.getElementById('ID').showModal() method */}
@@ -29,7 +29,7 @@ const Home = ({data}) => {
                  <label className='mb-1 text-gray-400' htmlFor="">Destination</label>
                  <input type="text" name="text" className=' bg-zinc-100 rounded-md p-3 text-center font-bold ' readOnly placeholder={data[0]?.name} required  />
                  </div>
-                 <div className='grid md:grid-cols-2 gap-5 w-fit'>
+                 <div className='grid grid-cols-1 md:grid-cols-2 md:gap-5 md:w-fit'>
                  <div className='flex flex-col mb-[10px]'>
                  <label className='mb-1 text-gray-400' htmlFor="">From</label>
                  <input type="date" name="from" className=' bg-zinc-100 rounded-md p-3 text-center font-bold '  required  />
@@ -46,8 +46,8 @@ const Home = ({data}) => {
 </dialog>
                 </>
                 : 
-                <><h1 className='title'>Discover the<br /> World  with<br /> Travel Guru</h1>
-                <p className='sub-title'>Coxs Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                <><h1 className='title text-5xl md:text-7xl'>Discover the<br /> World  with<br /> Travel Guru</h1>
+                <p className='sub-title max-w-[450px]'>Coxs Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                 <button  className="btn bg-[#f3c170] hover:bg-[#ebbb70] border-none  font-bold px-10">Select First</button></>
             }
         </div>

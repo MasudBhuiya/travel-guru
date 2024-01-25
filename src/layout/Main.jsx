@@ -26,13 +26,15 @@ const Main = () => {
   // console.log(data);
 
   useEffect(() => {
-    fetch('https://travel-guru-server-i6atl07yv-masudbhuiya.vercel.app/data')
+    fetch('/data/data.json')
       .then(res => res.json())
-      .then(data => {
-        setDetails(data)
-        console.log('33',data);
+      .then(d => {
+        console.log(d)
+        setDetails(d)
       })
-      .catch(error=>console.log(error))
+      .catch(e => {
+        console.log(e)
+      })
   }, [])
   const handleDetails = (num) => {
     {
@@ -45,7 +47,7 @@ const Main = () => {
     <div className="main">
       <div className='background'>
       <Navbar></Navbar>
-      <div className='grid md:ms-[170px] items-center lg:grid-cols-2 justify-evenly pt-[150px]'>
+      <div className='grid grid-cols-1 items-center p-4 md:p-0 gap-8 md:gap-0 lg:ms-[150px] lg:grid-cols-2 justify-evenly pt-10 md:pt-[150px]'>
         <div>
           <Home key={data?.id} data={data}></Home>
           
@@ -61,17 +63,17 @@ const Main = () => {
               modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide onClick={() => handleDetails(1)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Cox`s Bazar</h4></Link></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(1)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Cox`s Bazar</h4></Link></SwiperSlide>
 
-              <SwiperSlide onClick={() => handleDetails(2)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sajek</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(3)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Rangamati</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(2)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Sajek</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(3)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Rangamati</h4></SwiperSlide>
 
-              <SwiperSlide onClick={() => handleDetails(4)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Jaflong</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(5)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Saint Martin</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(6)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sundarban</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(7)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Himsori</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(8)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sri Mongol</h4></SwiperSlide>
-              <SwiperSlide onClick={() => handleDetails(9)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='text-2xl font-bold text-white text-center relative bottom-14'>Sada Pathor</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(4)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Jaflong</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(5)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Saint Martin</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(6)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Sundarban</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(7)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar1} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Himsori</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(8)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar2} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Sri Mongol</h4></SwiperSlide>
+              <SwiperSlide onClick={() => handleDetails(9)}><Link><img className='hover:border-2 rounded-3xl hover:border-yellow-400' src={sidebar3} alt="" /></Link><h4 className='md:text-2xl font-bold text-white text-center relative bottom-14'>Sada Pathor</h4></SwiperSlide>
             </Swiper>
           </>
         </div>

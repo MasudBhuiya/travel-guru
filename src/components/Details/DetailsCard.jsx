@@ -6,7 +6,7 @@ const DetailsCard = ({data}) => {
     return (
         <div className="grid lg:grid-cols-2 my-8">
             <div>
-                <img className="max-w-[290px] rounded-md" src={data.image} alt="" />
+                <img className="w-full md:max-w-[290px] rounded-md" src={data.image} alt="" />
             </div>
             <div>
             <h2 className="font-medium text-2xl mb-2">{data.name}</h2>
