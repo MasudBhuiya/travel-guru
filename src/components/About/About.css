@@ -1,0 +1,19 @@
+.backgroundd{
+    background-image: url('https://media.istockphoto.com/id/637579858/photo/panorama-dawn-landscape-sea-tropical-eriyadu-island-maldives.jpg?s=612x612&w=0&k=20&c=eyARzIfMRlAxxR7HYdR1sO_gAoWu464efG4W62EQ65k=');
+    background-size: cover;
+    
+}
+.title{
+color: black;
+ font-family: Inter;
+ font-weight: 600;
+ word-wrap: break-word
+}
+.button{
+    color: white;
+font-size: 20px;
+font-family: Inter;
+font-weight: 600;
+line-height: 30px;
+word-wrap: break-word
+}

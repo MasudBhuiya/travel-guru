@@ -12,6 +12,7 @@ import Login from './components/Login/Login';
 import Register from './components/Login/Register';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ContactForm from './components/Contact/ContactForm';
+import About from './components/About/About';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: 'contact',
     element: <ContactForm></ContactForm>
+  },
+  {
+    path: 'about',
+    element: <About></About>
   }
 ]);
 
